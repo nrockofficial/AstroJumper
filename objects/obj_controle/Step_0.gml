@@ -11,3 +11,11 @@ if room = Room2
 		room_goto(Room1);
 	}
 }
+
+if room = Room1
+{
+	if keyboard_check_pressed(ord("S"))
+	{
+		room_goto(Room3);
+	}
+}
